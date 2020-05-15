@@ -1,15 +1,16 @@
-#wytrzymalosc_materialow
-Prosty program z graficznym interfejsem uzytkownika, przeznaczony dla studentow budownictwa pierwszego roku w celu zobrazowania podstawowych zagadnien z zakresu wytrzymalosci materialow.
+#strenght_of_materials
+Simple program with Graphic User Interface, designed for first year Civil Engineering students.
 
-Program jest pisany na podstawie programu nauczania z Politechniki Poznanskiej.
+Program is based on material from Poznań University of Technology.
 
-Program obejmuje zagadnienia zwiazane z:
-- [ ] momentami bezwładności
-- [ ] naprężeniami normalnymi
-- [ ] naprężeniami stycznymi
-- [x] wyboczeniem prętów
+Possible to calculate:
+- [ ] moment of inertia
+- [ ] normal stress
+- [ ] shear stress
+- [ ] bending at angle
+- [x] buckling
 
-Wykorzystane technologie:
+Used technologies:
 - tkinter
 - numpy
 - plotlib
