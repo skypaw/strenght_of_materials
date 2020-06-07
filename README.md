@@ -1,4 +1,4 @@
-#strenght_of_materials
+# strenght_of_materials
 
 Simple program with Graphic User Interface, designed for first year Civil Engineering students.
 
