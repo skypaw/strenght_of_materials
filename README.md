@@ -6,10 +6,11 @@ Program is based on material from Poznań University of Technology.
 
 Possible to calculate:
 - [ ] moment of inertia
-- [ ] normal stress
-- [ ] shear stress
+- [x] normal stress
+- [x] shear stress
 - [ ] bending at angle
 - [x] buckling
+- [ ] GUI
 
 Used technologies:
 - tkinter

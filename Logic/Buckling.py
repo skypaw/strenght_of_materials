@@ -49,5 +49,4 @@ def graph_data(sigma_h_data, e_data, sigma_p_data, a_data, j_data, coefficient_d
     print(p_kr)
     return lambda_table, sigma_table, lambda_rel, sigma_crit_rel, p_kr
 
-
-graph_data(215, 209e3, 235, 6.91 * 10 ** -4, 9.43 * 10 ** -8, 2, 4)
+# graph_data(215, 209e3, 235, 6.91 * 10 ** -4, 9.43 * 10 ** -8, 2, 4)
