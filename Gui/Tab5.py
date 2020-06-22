@@ -22,16 +22,16 @@ def test(master):
     test.grid(row=1, rowspan=30, column=6)
 
     figure3 = plt.Figure(figsize=(5, 4))
-    ax3 = figure3.add_subplot(111)
 
     def onclick():
-        e = float(data_1.get().replace(',', '.')) * 10 ** 3
+        e = float(data_1.get().replace(',', '.'))
 
-        lambda_graph = [2, 3, 1, 3, 1, 3, 2]
+        lambda_graph = [e, 3, 1, 3, 1, 3, 2]
         sigma_graph = [2, 3, 1, 3, 1, 3, 2]
 
+        figure3.clf()
+        ax3 = figure3.add_subplot(111)
         ax3.scatter(lambda_graph, sigma_graph)
-
         scatter3.draw()
 
     scatter3 = FigureCanvasTkAgg(figure3, test)
