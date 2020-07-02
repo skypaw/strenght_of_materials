@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter.ttk import Notebook
 import Gui.Tab5
+import Gui.Tab1
 
 import Logic.Buckling
 import matplotlib.pyplot as plt
@@ -24,6 +25,7 @@ class Main:
 
         tab_parent.pack(expand=1, fill='both')
 
+        Gui.Tab1.test(tab1)
         Gui.Tab5.test(tab4)
 
 
