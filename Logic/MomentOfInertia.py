@@ -12,4 +12,8 @@ def i_beam(t_f1, b_f1, tw, hw, t_f2, b_f2):
 
     return i_y
 
+
+def i_beam_cross(t_f1, b_f1, tw, hw, t_f2, b_f2):
+    return t_f1 * b_f1 + tw * hw + t_f2 * b_f2
+
 # print(i_beam(1.6, 25, 1.2, 76, 1.8, 28))

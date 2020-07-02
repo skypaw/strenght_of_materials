@@ -19,7 +19,7 @@ class Main:
         tab4 = Frame(tab_parent)
 
         tab_parent.add(tab1, text="Naprezenia")
-        tab_parent.add(tab2, text="Momenty bezwladnosci")
+        tab_parent.add(tab2, text="Skrecanie")
         tab_parent.add(tab3, text="Zginanie ukosne")
         tab_parent.add(tab4, text="Wyboczenie")
 
