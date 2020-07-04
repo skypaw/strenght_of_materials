@@ -142,7 +142,7 @@ def test(master):
             normal_stress.append(normal_s)
         print(normal_stress)
 
-        max_stress = max(normal_stress)
+        max_stress = round(max(normal_stress), 2)
         results_1.config(text=f'Maksymalne naprężenie = {max_stress} [kN/cm^2]')
         results_2.config(text=f'Moment bezwladnosci = {i_y} [cm^4]')
         results_3.config(text=f'Pole przekroju = {a_cross_section} [cm^2]')
@@ -151,8 +151,6 @@ def test(master):
         ax4 = figure4.add_subplot(111)
         ax4.scatter(length_table, normal_stress)
         scatter4.draw()
-
-
 
     scatter4 = FigureCanvasTkAgg(figure4, graph_frame2)
     scatter4.get_tk_widget().pack(side=LEFT, fill=BOTH)
