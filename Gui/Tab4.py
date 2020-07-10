@@ -5,7 +5,7 @@ from matplotlib.backends.backend_tkagg import (
     FigureCanvasTkAgg)
 
 
-def test(master):
+def tab4(master):
     desc_1 = Label(master, text="E", padx=10)
     desc_2 = Label(master, text="sigma_h", padx=10)
     desc_3 = Label(master, text="sigma_p", padx=10)
@@ -54,8 +54,8 @@ def test(master):
     data_6.grid(row=6, column=2)
     data_7.grid(row=7, column=2)
 
-    test = Frame(master)
-    test.grid(row=1, rowspan=30, column=6)
+    graph = Frame(master)
+    graph.grid(row=1, rowspan=30, column=6)
 
     figure3 = plt.Figure(figsize=(4, 4))
 
@@ -81,7 +81,7 @@ def test(master):
         results_3.config(text=f'Sigma krytyczna = {round(sigma_crit_rel, 4)} [MPa]')
         results_4.config(text=f'Sila krytyczna = {round(p_kr, 2)} [kN]')
 
-    scatter3 = FigureCanvasTkAgg(figure3, test)
+    scatter3 = FigureCanvasTkAgg(figure3, graph)
     scatter3.get_tk_widget().pack(side=LEFT, fill=BOTH)
 
     button5 = Button(master, text="Calculate", command=onclick)

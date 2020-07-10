@@ -2,8 +2,8 @@ import numpy as np
 
 
 def bending_moments(alpha_func, m_max):
-    m_y = m_max * np.cos(alpha_func)
-    m_z = m_max * np.sin(alpha_func)
+    m_y = m_max * np.cos(alpha_func*np.pi/180)
+    m_z = m_max * np.sin(alpha_func*np.pi/180)
     return m_y, m_z
 
 

@@ -7,7 +7,7 @@ import Logic.StressFunctions
 import Logic.MomentOfInertia
 
 
-def test(master):
+def tab1(master):
     desc_1 = Label(master, text="L", padx=10)
     desc_2 = Label(master, text="q", padx=10)
 
