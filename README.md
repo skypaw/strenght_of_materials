@@ -10,7 +10,7 @@ Possible to calculate:
 - [x] shear stress
 - [x] bending at angle
 - [x] buckling
-- [ ] GUI
+- [x] GUI
 
 Used technologies:
 - tkinter
